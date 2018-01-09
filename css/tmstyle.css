@@ -1,0 +1,22 @@
+body{
+  width: 50%;
+  background:black;  
+  margin: auto;
+  padding: 2% 1%;
+  text-align: center;
+  font-family: 'Bungee', cursive;
+  color: #fff;
+}
+h2{
+  padding: 2% 1%;
+  margin: auto;
+  letter-spacing: 5px;
+  font-size: 60px;
+  color: #fff;
+  text-shadow: 0px 1px 0px #c7c8ca, 0px 2px 0px #b1b3b6, 0px 3px 0px #9d9fa2, 0px 4px 0px #8a8c8e, 0px 5px 0px #77787b, 0px 6px 0px #636466, 0px 7px 0px #4d4d4f, 0px 8px 7px #001135;
+  
+}
+/*Responsive*/
+@media (max-width: 425px) {
+  h2{font-size:60%;}
+}

@@ -1,0 +1,39 @@
+body{
+	
+	background-image: url("http://www.istitutomarangoni.com/wp-content/uploads/2017/03/London_1600x900.jpg");
+	text-align:center;
+	background-repeat: no-repeat;
+	width:100%;
+	
+}
+body>h1{
+	color:#E3000E;
+	font-size:200%
+	
+	
+	
+}
+div.link>img{
+	width:150px;
+	height:150px;
+	padding:10px;
+}
+div.city>a>img{
+	width:760px;
+	height:auto;
+	padding-left:320px;
+}
+
+body>h2{
+	font-size:400%;
+	color:#CF000F;
+}
+
+/*Responsive*/
+@media (max-width: 720px) {
+  h1,h2,.link,.city{font-size:60%;}
+}
+
+@media (min-width: 320px) {
+	h1,h2,p,.link,.city{font-size:50%;}
+}
